@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name-Conversion</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="nameConversion">
+      <div class="inputbox">
+        <input
+          type="text"
+          name="textfield_name"
+          id="textfield_id"
+          placeholder="Enter the Text"
+        />
+      </div>
+      <div class="button">
+        <button type="button">Convert</button>
+      </div>
+      <div class="types">
+        <input type="text" id="camelcase" value="Camel case:" readonly />
+        <input type="text" id="Pascalcase" value="Pascal Case :" readonly />
+        <input type="text" id="Snakecase" value="Snakecase" readonly />
+        <input
+          type="text"
+          id="ScreamingSnakecase"
+          value="Screaming Snake case :"
+          readonly
+        />
+        <input type="text" id="Kebabcase" value="Kebab Case :" readonly />
+        <input
+          type="text"
+          id="ScreamingKebabcase"
+          value="Screaming Kebab Case :"
+          readonly
+        />
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
